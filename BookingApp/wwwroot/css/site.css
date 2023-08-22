@@ -199,6 +199,8 @@
     }
 }
 
+
+
 body {
     margin: 0;
     font-family: var(--bs-body-font-family);
@@ -722,7 +724,7 @@ progress {
 }
 
     .blockquote-footer::before {
-        content: "— ";
+        content: "ï¿½ï¿½";
     }
 
 .img-fluid {
@@ -5748,7 +5750,7 @@ textarea.form-control-lg {
     --bs-toast-spacing: 1.5rem;
     --bs-toast-max-width: 350px;
     --bs-toast-font-size: 0.875rem;
-    --bs-toast-color:;
+    --bs-toast-color: #2f96b4;
     --bs-toast-bg: rgba(var(--bs-body-bg-rgb), 0.85);
     --bs-toast-border-width: var(--bs-border-width);
     --bs-toast-border-color: var(--bs-border-color-translucent);
@@ -5762,7 +5764,7 @@ textarea.form-control-lg {
     font-size: var(--bs-toast-font-size);
     color: var(--bs-toast-color);
     pointer-events: auto;
-    background-color: var(--bs-toast-bg);
+    background-color:forestgreen;
     background-clip: padding-box;
     border: var(--bs-toast-border-width) solid var(--bs-toast-border-color);
     box-shadow: var(--bs-toast-box-shadow);
@@ -5785,6 +5787,7 @@ textarea.form-control-lg {
     width: max-content;
     max-width: 100%;
     pointer-events: none;
+    background-color:lightgreen;
 }
 
     .toast-container > :not(:last-child) {

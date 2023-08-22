@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApp", "BookingApp\BookingApp.csproj", "{16A005D4-A992-468D-94A1-50615A246AB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingApp", "BookingApp\BookingApp.csproj", "{16A005D4-A992-468D-94A1-50615A246AB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.DataAccess", "Booking.DataAccess\Booking.DataAccess.csproj", "{62AC0BEC-5AA2-4789-9B89-3D9FB71DFC78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.Models", "Booking.Models\Booking.Models.csproj", "{2ED18F89-427E-404C-968E-4A6926A60FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.Utility", "Booking.Utility\Booking.Utility.csproj", "{46E9190C-6809-4C4D-8016-C75F461CFA3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{16A005D4-A992-468D-94A1-50615A246AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16A005D4-A992-468D-94A1-50615A246AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16A005D4-A992-468D-94A1-50615A246AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62AC0BEC-5AA2-4789-9B89-3D9FB71DFC78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62AC0BEC-5AA2-4789-9B89-3D9FB71DFC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62AC0BEC-5AA2-4789-9B89-3D9FB71DFC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62AC0BEC-5AA2-4789-9B89-3D9FB71DFC78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED18F89-427E-404C-968E-4A6926A60FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED18F89-427E-404C-968E-4A6926A60FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED18F89-427E-404C-968E-4A6926A60FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED18F89-427E-404C-968E-4A6926A60FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E9190C-6809-4C4D-8016-C75F461CFA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E9190C-6809-4C4D-8016-C75F461CFA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E9190C-6809-4C4D-8016-C75F461CFA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E9190C-6809-4C4D-8016-C75F461CFA3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
