@@ -1,6 +1,7 @@
 ﻿using Booking.DataAccess;
 using Booking.DataAccess.Repositories.IRepositories;
 using Booking.Models;
+using Booking.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +11,7 @@ using System.Runtime.CompilerServices;
 namespace BookingApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
